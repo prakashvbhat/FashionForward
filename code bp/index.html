@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fashion Forward</title>
+  <!-- Link to the external CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">FashionForward</div>
+    <nav>
+      <a href="#upload">Upload</a>
+      <a href="#suggestions">AI Style</a>
+      <a href="#blog">Blog</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h1>Welcome to FashionForward</h1>
+    <p>Your personal AI fashion assistant. Upload your style and let us do the magic!</p>
+    <a href="#upload" class="cta-button">Get Started</a>
+  </section>
+
+  <section id="upload">
+    <h2>Photo Upload</h2>
+    <p>Upload your dress photos and profile photo for personalized style recommendations.</p>
+    <div class="upload-container">
+      <label for="dress-upload" class="upload-box">
+        <input type="file" id="dress-upload" accept="image/*">
+        Upload Dress Photo
+      </label>
+      <label for="profile-upload" class="upload-box">
+        <input type="file" id="profile-upload" accept="image/*">
+        Upload Profile Photo
+      </label>
+    </div>
+  </section>
+
+  <section id="suggestions">
+    <h2>AI Style Suggestions</h2>
+    <p>Get personalized outfit and accessory recommendations.</p>
+    <div id="results"></div>
+    <button id="get-suggestions" class="cta-button">Get Style Suggestions</button>
+  </section>
+
+  <section id="blog">
+    <h2>Fashion Blog</h2>
+    <div class="blog-container">
+      <article>
+        <img src="images/fashion1.jpg" alt="Fashion">
+        <h3>Styling Tips for Every Occasion</h3>
+        <p>Discover how to style your outfits like a pro.</p>
+      </article>
+      <article>
+        <img src="images/fashion2.jpg" alt="Trends">
+        <h3>Latest Trends in 2024</h3>
+        <p>Stay ahead with the latest fashion trends.</p>
+      </article>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2024 FashionForward. All rights reserved.</p>
+  </footer>
+
+  <!-- Link to the external JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
